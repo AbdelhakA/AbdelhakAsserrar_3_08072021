@@ -187,6 +187,10 @@ nav {
     margin-bottom: 20px;
 }
 
+.thick > span {
+    text-transform: uppercase;
+}
+
 .delice {
     width: 90%;
     height: 250px;
