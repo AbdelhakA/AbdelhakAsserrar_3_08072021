@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 18px;
+    max-width: 100vw;
+}
+
+.header {
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+    
+}
+
+.home {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ohmyfood {
+    width: 45%;
+}
+
+.location  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;  
+}
+
+.location > .city {
+    margin-left: 15px;
+}
+
+nav > h2 {
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+nav {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_line1 {
+    margin-bottom: 2px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.intro_line2 {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+.explorer {
+    border: none;
+    color: white;
+    background: linear-gradient(to bottom right, #FF79DA, 40%, #9356DC);
+    width: 250px;
+    font-size: 18px;
+    padding: 18px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.instructions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.fct {
+    margin-left: 15px;
+}
+
+ .steplist {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.steptext {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.steps {
+    width: 90%;
+    margin-bottom: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    /* box-shadow: 0px 0px 10px rgb(186, 182, 182); */
+}
+
+.foodspots  {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.resto {
+    margin-left: 15px;
+}
+
+.thick {
+    font-weight: bold;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.choice {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.palette {
+    width: 90%;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 20px rgb(186, 182, 182);
+    margin-bottom: 20px;
+}
+
+.lanote {
+    width: 90%;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 20px rgb(186, 182, 182);
+    margin-bottom: 20px;
+}
+
+.francaise {
+    width: 90%;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 20px rgb(186, 182, 182);
+    margin-bottom: 20px;
+}
+
+.delice {
+    width: 90%;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 20px rgb(186, 182, 182);
+    margin-bottom: 20px;
+}
+
+.palette > .image {
+    width: 100%;
+    height: 100%;
+    background-image: url(photos/palette.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.lanote > .image {
+    width: 100%;
+    height: 100%;
+    background-image: url(photos/note.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.francaise > .image {
+    width: 100%;
+    height: 100%;
+    background-image: url(photos/alafrench.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.delice > .image {
+    width: 100%;
+    height: 100%;
+    background-image: url(photos/delice.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.palette > .desc {
+    padding-left: 15px;
+    background-color: white; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.lanote > .desc {
+    padding-left: 15px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.francaise > .desc {
+    padding-left: 15px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.delice > .desc {
+    padding-left: 15px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: rgb(55, 55, 55);
+    
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.footer_content {
+    padding-left: 25px;
+}
+
+.footer_content > .footer_title {
+    width: 100%;
+    margin-top: 0px;
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+    
+}
+
+.propose {
+    width: 100%;
+    margin-bottom: 7px;
+} 
+
+.partners {
+    width: 100%;
+     margin-top: 0px;
+     margin-bottom: 7px;
+ }
+
+ .policies {
+    width: 100%;
+    margin-top: 0px;
+ }
+
+ .contact {
+    width: 100%;
+    margin-bottom: 0px;
+ }
