@@ -78,6 +78,7 @@ nav {
 
 
 .explorer {
+    text-decoration: none;
     border: none;
     color: white;
     background: linear-gradient(to bottom right, #FF79DA, 40%, #9356DC);
