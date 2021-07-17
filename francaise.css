@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+header > h1 {
+    font-family: 'Shrikhand', cursive;
+    display: flex;
+    align-items: center; 
+}
+
+.visual {
+    width: 100%;
+    height: 264px;
+    background-image: url(photos/alafrench.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.content {
+    background-color: #f1f1f1;
+}
+
+.entrees {
+    padding-bottom: 30px;
+}
+
+.entree_choice {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resto_name {
+    margin-top: 0px;
+    font-family: 'Shrikhand', cursive;
+    margin-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.title {
+    width: fit-content;
+    margin-left: 20px;
+    font-weight: 100;
+    border-bottom: 2px solid #99E2D0;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.choix {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(186, 182, 182);
+}
+
+.dish {
+    font: bold;
+    margin-bottom: 0px;
+}
+
+.compo  {
+    margin-top: 5px;
+    font-weight: 100;
+}
+
+.price  {
+    margin-top: 5px;
+}
+
+.line2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plats {
+    padding-bottom: 30px;
+}
+
+.plats_choice {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desserts {
+    padding-bottom: 0px;
+}
+
+.desserts_choice {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order {
+    border: none;
+    color: white;
+    background: linear-gradient(to bottom right, #FF79DA, 40%, #9356DC);
+    width: 250px;
+    font-size: 18px;
+    padding: 18px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.go {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: rgb(55, 55, 55);
+    
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.footer_content {
+    padding-left: 25px;
+}
+
+.footer_content > .footer_title {
+    width: 100%;
+    margin-top: 0px;
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+    
+}
+
+.propose {
+    width: 100%;
+    margin-bottom: 7px;
+} 
+
+.partners {
+    width: 100%;
+     margin-top: 0px;
+     margin-bottom: 7px;
+ }
+
+ .policies {
+    width: 100%;
+    margin-top: 0px;
+ }
+
+ .contact {
+    width: 100%;
+    margin-bottom: 0px;
+ }
