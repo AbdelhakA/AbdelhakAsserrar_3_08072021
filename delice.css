@@ -24,12 +24,16 @@ header {
 
 header > h1 {
     font-family: 'Shrikhand', cursive;
-    display: flex;
+    margin: 0 auto;
     align-items: center; 
+    padding: 30px 0px 30px 0px;
 }
 
 #back {
+    margin-left: 20px;
+    position: relative;
     color: black;
+    font-size: 30px;
 }
 
 .visual {
@@ -72,6 +76,10 @@ header > h1 {
     border-bottom: 2px solid #99E2D0;
 }
 
+.price {
+    padding-right: 15px;
+}
+
 .upper {
     text-transform: uppercase;
 }
@@ -79,14 +87,70 @@ header > h1 {
 .choix {
     width: 90%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: white;
     padding-left: 10px;
-    padding-right: 15px;
     margin-bottom: 20px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgb(186, 182, 182);
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+.desc {
+    width: 100%;
+}
+
+.check {
+    position: relative;
+    background-color: #99e2d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: -65px;
+    animation-name: confirm;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+.choix:hover {
+    width: calc(90%-65px);
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-name: showup;
+}
+
+@keyframes confirm {
+    0% {
+        margin-right: -65px;
+    }
+    
+    100% {
+        margin-right: 0px;
+    }
+}
+
+@keyframes showup {
+    0% {
+        width: 90%;
+    }
+    100%
+    {
+        width: calc(90%-65px);
+    }
+}
+
+.fa-check-circle {
+    font-size: 30px;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 
 .dish {
     font: bold;
