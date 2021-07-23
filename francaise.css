@@ -9,6 +9,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     font-size: 18px;
+    background-color: #f1f1f1;
 }
 
 header {
@@ -17,17 +18,22 @@ header {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    background-color: white;
 }
 
 
 header > h1 {
     font-family: 'Shrikhand', cursive;
-    display: flex;
+    margin: 0 auto;
     align-items: center; 
+    padding: 30px 0px 30px 0px;
 }
 
 #back {
+    margin-left: 20px;
+    position: relative;
     color: black;
+    font-size: 30px;
 }
 
 .visual {
@@ -40,7 +46,8 @@ header > h1 {
 }
 
 .content {
-    background-color: #f1f1f1;
+
+    border-top-left-radius: 50px;
 }
 
 .entrees {
@@ -69,6 +76,10 @@ header > h1 {
     border-bottom: 2px solid #99E2D0;
 }
 
+.price {
+    padding-right: 30px;
+}
+
 .upper {
     text-transform: uppercase;
 }
@@ -76,13 +87,60 @@ header > h1 {
 .choix {
     width: 90%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: white;
     padding-left: 10px;
-    padding-right: 15px;
     margin-bottom: 20px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgb(186, 182, 182);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.desc {
+    width: 100%;
+}
+
+.check {
+    position: relative;
+    background-color: #99e2d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    margin-right: -7%;
+    transition-duration: .5s;
+}
+
+
+.choix:hover .check {
+    margin-right: -1rem;
+}
+
+.choix:hover .check .valider {
+
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(180);
+    }
+}
+
+
+.fa-check-circle {
+    font-size: 30px;
+    color: white;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.valider {
 }
 
 .dish {
@@ -108,6 +166,7 @@ header > h1 {
 
 .plats {
     padding-bottom: 30px;
+    background-color: #f1f1f1;
 }
 
 .plats_choice {
@@ -120,6 +179,7 @@ header > h1 {
 
 .desserts {
     padding-bottom: 0px;
+    background-color: #f1f1f1;
 }
 
 .desserts_choice {
@@ -139,6 +199,7 @@ header > h1 {
     padding: 18px;
     border-radius: 50px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .go {
