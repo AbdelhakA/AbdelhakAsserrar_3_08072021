@@ -11,7 +11,6 @@ body {
     max-width: 1440px;
     margin: 0 auto;
     font-size: 18px;
-    max-width: 100vw;
 }
 
 .header {
@@ -64,6 +63,56 @@ nav {
     align-items: center;
 }
 
+.desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hearts {
+    position: relative;
+}
+
+.coeur_vide {
+    right: 10px;
+    font-size: 35px;
+    top: 20px;
+    height: max-content;
+    position: absolute;
+    position: 0;
+}
+
+.coeur_plein {
+    right: 10px;
+    top: 20px;
+    height: max-content;
+    position: absolute;
+    font-size: 35px;
+    opacity: 0;
+    color: pink;
+}
+
+.hearts:hover .coeur_plein {
+    opacity: 1;
+    transition-duration: .5s;
+}
+
+.hearts:hover .coeur_vide {
+    opacity: 0;
+    transition-duration: .5s;
+
+}
+
+
+
+/* .coeur_plein:hover {
+    color: pink;
+    opacity: 1;
+}
+
+.coeur_vide:hover {
+    
+} */
+
 .intro_line1 {
     margin-bottom: 2px;
     font-size: 20px;
@@ -87,6 +136,13 @@ nav {
     padding: 18px;
     border-radius: 50px;
     margin-top: 30px;
+    transition-duration: .5s;
+}
+
+.explorer:hover {
+    box-shadow: 0px 0px 20px rgb(91, 90, 90);
+    transition-duration: .5s;
+    opacity: .8;
 }
 
 .instructions {
@@ -110,6 +166,7 @@ nav {
 } 
 
 .steptext {
+    position: relative;
     width: 100%;
     align-items: center;
     display: flex;
@@ -117,7 +174,7 @@ nav {
 }
 
 .steps {
-    width: 90%;
+    width: 80%;
     margin-bottom: 30px;
     align-items: center;
     display: flex;
@@ -133,6 +190,15 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-left: 0px;
+}
+
+.number {
+    position: absolute;
+    left: -20px;
+    background-color: #9356DC;
+    padding: 3px 8px;
+    border-radius: 45px;
+    color: white;
 }
 
 .foodspots  {
@@ -160,7 +226,8 @@ nav {
     padding: 6px;
     border-radius: 10px;
     position: absolute;
-    
+    top: 3px;
+    right: 20px;
 }
 
 .choice {
@@ -172,6 +239,7 @@ nav {
 }
 
 .palette {
+    position: relative;
     width: 90%;
     height: 250px;
     border-radius: 20px;
@@ -194,6 +262,7 @@ nav {
 }
 
 .francaise {
+    position: relative;
     width: 90%;
     height: 250px;
     border-radius: 20px;
@@ -333,4 +402,67 @@ footer {
  .contact {
     width: 100%;
     margin-bottom: 0px;
+ }
+
+ .icone_footer {
+     margin-right: 10px;
+     font-size: 13px;
+ }
+
+ @media screen and (min-width: 1000px) and (max-width: 1440px) {
+
+    .steplist {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .steps {
+        width: 70%;
+    }
+    
+    .choice {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        width: 45%;
+        position: relative;
+    }
+
+    .steps {
+        width: 70%;
+        margin: 50px 15px;
+    }
+
+ }
+
+ @media (min-width: 1440px) {
+
+    .steplist {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .steps {
+        width: 70%;
+        margin: 50px 15px;
+    }
+    
+    .choice {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        width: 45%;
+        position: relative;
+    }
  }
