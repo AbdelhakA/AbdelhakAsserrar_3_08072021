@@ -131,6 +131,21 @@ header > h1 {
     box-shadow: 0px 0px 20px rgb(186, 182, 182);
     overflow: hidden;
     white-space: nowrap;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    transform: scale(0);
+    animation-duration: .6s;
+    animation-name: popup;
+}
+
+@keyframes popup {
+    0% {
+    transform: scale(0);
+    }
+
+    100% {
+    transform: scale(1);
+    }
 }
 
 .desc {
