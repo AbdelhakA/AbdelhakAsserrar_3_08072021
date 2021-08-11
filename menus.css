@@ -87,7 +87,7 @@ header > h1 {
 }
 
 .entrees {
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 .entree_choice {
@@ -105,11 +105,37 @@ header > h1 {
     padding-bottom: 20px;
 }
 
+.plats > .title > .name {
+    margin-left: 0px;
+}
+
+.entrees > .title > .underline {
+    margin-top: 2px;
+}
+
 .title {
     width: max-content;
     margin-left: 20px;
     font-weight: 100;
-    border-bottom: 2px solid #99E2D0;
+    /* border-bottom: 2px solid #99E2D0; */
+}
+
+.entitled  {
+    margin-left: 0px;
+}
+
+.name {
+    width: max-content;
+    margin-left: 0px;
+    font-weight: 100;
+    margin-bottom: 2px;
+}
+
+.underline {
+    height: 3px;
+    background-color: #99E2D0;
+    width: 45px;
+    margin-left: 0px;
 }
 
 .price {
@@ -198,8 +224,8 @@ header > h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 110px;
-    margin-right: -110px;
+    width: 120px;
+    margin-right: -120px;
     transition-duration: .5s;
 }
 
@@ -273,7 +299,7 @@ header > h1 {
 }
 
 .plats {
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     background-color: #f1f1f1;
 }
 
@@ -323,12 +349,10 @@ header > h1 {
 } */
 
 .order:hover {
-    box-shadow: 0px 0px 20px rgb(91, 90, 90);
+    box-shadow: 0px 2px 16px rgb(40, 40, 40);
     transition-duration: .5s;
-    opacity: .8;
+    opacity: .9;
 }
-
-
 
 .go {
     width: 100%;
@@ -345,7 +369,6 @@ footer {
     margin-bottom: 0px;
     color: white;
     background-color: rgb(55, 55, 55);
-    
     padding-top: 25px;
     padding-bottom: 40px;
 }
@@ -388,6 +411,16 @@ footer {
     font-size: 13px;
 }
 
+.contact {
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+
+.policies {
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+
  @media (min-width: 1440px)  {
     
     main {
@@ -402,6 +435,9 @@ footer {
         /* grid-row-gap: 40px; */
         /* grid-template-rows: 150px; */
         padding: 0 40px;
+        justify-content: center;
+        align-items: center;
+        width: 94%;
     }
 
     .entrees > .title {
@@ -421,17 +457,28 @@ footer {
     .entrees {
         display: flex;
         flex-direction: column;
+        padding-bottom: Opx;
     }
 
     .plats {
         display: flex;
         flex-direction: column;
+        padding-bottom: Opx;
     }
 
     .desserts {
         display: flex;
         flex-direction: column;
+        
     }
 
+    .desserts_choice {
+        /* margin-top: 0px; */
+    }
 
- }
+    .entitled {
+        /* margin-bottom: 30px; */
+
+    }
+
+ }  
