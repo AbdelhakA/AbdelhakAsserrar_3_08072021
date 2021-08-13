@@ -86,6 +86,11 @@ header > h1 {
     border-top-left-radius: 50px;
 }
 
+#starters {
+    margin-left: 0px; 
+    margin-bottom: 0px;   
+}
+
 .entrees {
     /* padding-bottom: 30px; */
 }
@@ -98,6 +103,9 @@ header > h1 {
 }
 
 .resto_name {
+    position: relative;
+    display: flex;
+    width: 100%;
     margin-top: 0px;
     font-family: 'Shrikhand', cursive;
     margin-left: 20px;
@@ -172,6 +180,38 @@ header > h1 {
     100% {
     transform: scale(1);
     }
+}
+
+.hearts {
+    position: absolute;
+    right: 50px;
+}
+
+.coeur_vide {
+    right: 10px;
+    font-size: 35px;
+    top: 20px;
+    height: max-content;
+    position: absolute;
+    position: 0;
+}
+
+.coeur_plein {
+    right: 10px;
+    top: 20px;
+    height: max-content;
+    position: absolute;
+    font-size: 35px;
+    opacity: 0;
+    
+}
+
+.coeur_plein:hover {
+    background: -webkit-linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    transition-duration: .5s;
 }
 
 #delay1 {

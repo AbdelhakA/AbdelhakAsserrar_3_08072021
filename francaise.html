@@ -9,7 +9,6 @@
     <link title="style.css" rel="stylesheet" href="menus.css">
     <script src="https://kit.fontawesome.com/6250094159.js" crossorigin="anonymous"></script>
 </head>
- 
 <body>
     <header>
         <a href="index.html"><i id="back" class="fas fa-arrow-left"></i></a>
@@ -17,10 +16,18 @@
     </header> 
     <main> 
         <div id="french_visual" class="visual"></div>
-        <h1 class="resto_name"><span class="upper">à</span> la française</h1>  
+        <h1 class="resto_name"><p><span class="upper">à</span> la française</p>
+            <div class="hearts">
+                <i class="coeur_vide far fa-heart"></i>
+                <i class="coeur_plein fas fa-heart"></i>
+            </div>
+        </h1>  
     <div class="content">
         <section class="entrees">
-                    <p class="title">ENTR<span class="upper">é</span>ES</p>
+            <div class="title">
+                <p id="starters" class="title">ENTR<span class="upper">é</span>ES</p>
+                <div class="underline"></div>
+            </div>
                         <div class="entree_choice">
                                 <div id="delay0" class="choix">
                                     <div class="desc">
@@ -52,7 +59,10 @@
                         </div>
         </section>
         <section class="plats">
-            <div class="title">PLATS</div>
+            <div class="title">
+                <p class="entitled name">PLATS</p>
+                <div class="underline"></div>
+            </div>
                 <div class="plats_choice">
                     <div id="delay3" class="choix">
                         <div class="desc">
@@ -84,7 +94,10 @@
                 </div>
         </section>
         <section class="desserts">
-            <div class="title">DESSERTS</div>
+            <div class="title">
+                <p class="entitled name">DESSERTS</p>
+                <div class="underline"></div>
+            </div>
                 <div class="desserts_choice">
                     <div id="delay6" class="choix">
                         <div class="desc">
@@ -95,8 +108,8 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                     </div>
-                    <div class="choix">
-                        <div id="delay7" class="desc">
+                    <div id="delay7" class="choix">
+                        <div class="desc">
                         <h3 class="dish">Fondant au chocolat</h3>
                         <div class="line2"><p class="compo">Revisité</p><p class="price">22€</p></div>
                         </div>
@@ -115,10 +128,10 @@
                     </div>
                 </div>
         </section>
+        </main>
         <div class="go">
             <button class="order">Commander</button>
-            </div>
-        </main>
+        </div>
     </div>   
         <footer>
             <div class="footer_content">
