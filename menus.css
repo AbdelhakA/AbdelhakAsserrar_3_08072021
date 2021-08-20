@@ -105,7 +105,7 @@ header > h1 {
 .resto_name {
     position: relative;
     display: flex;
-    width: 100%;
+    width: max-content;
     margin-top: 0px;
     font-family: 'Shrikhand', cursive;
     margin-left: 20px;
