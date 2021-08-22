@@ -52,6 +52,7 @@ body {
     }
   }
   .fadeOut {
+    margin: 0 auto;
     background-color: hsla(0,0%,100%,.9);
     -webkit-animation-name: fadeOut;
     animation-name: fadeOut;
@@ -68,18 +69,29 @@ body {
     left: 0;
   }
 
+  .load {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: -40px;
+    margin-top: -50px;
+  }
+
 .lds-roller {
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    display: inline-block;
-    size: 150px;
+    
   }
 
-  .lds-roller div {
+  .lds-roller > div {
     animation: lds-roller 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     transform-origin: 40px 40px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
   }
 
   .lds-roller div:after {
@@ -276,7 +288,7 @@ nav {
     top: 20px;
     height: max-content;
     position: absolute;
-    position: 0;
+    /* position: 0; */
 }
 
 .coeur_plein {
@@ -350,6 +362,11 @@ nav {
 } 
 
 .fct {
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+.fct {
     margin-left: 15px;
 }
 
@@ -405,7 +422,7 @@ nav {
 }
 
 .resto {
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .thick {

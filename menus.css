@@ -113,6 +113,15 @@ header > h1 {
     padding-bottom: 20px;
 }
 
+.h1heart {
+    display: flex;
+    flex-direction: row;
+}
+
+.h1heart > .hearts {
+    margin-top: 10px;
+}
+
 .plats > .title > .name {
     margin-left: 0px;
 }
@@ -193,7 +202,6 @@ header > h1 {
     top: 20px;
     height: max-content;
     position: absolute;
-    position: 0;
 }
 
 .coeur_plein {
@@ -373,20 +381,8 @@ header > h1 {
     padding: 18px;
     border-radius: 50px;
     margin-top: 30px;
-    cursor: pointer;
-    /* transition-duration: .5s; */
+    cursor: pointer;  
 }
-
-/* @keyframes fade {
-    0% {
-        background: linear-gradient(to bottom right, #FF79DA, 40%, #9356DC);
-    }
-
-    100% {
-        background: linear-gradient(to bottom right, #edc8e2, 40%, #bba0dc);
-        box-shadow: 0px 0px 20px rgb(186, 182, 182);
-    }
-} */
 
 .order:hover {
     box-shadow: 0px 2px 16px rgb(40, 40, 40);
@@ -472,8 +468,6 @@ footer {
         display: grid;
         grid-template-columns: 33% 34% 33%;
         grid-column-gap: 30px;
-        /* grid-row-gap: 40px; */
-        /* grid-template-rows: 150px; */
         padding: 0 40px;
         justify-content: center;
         align-items: center;
@@ -497,13 +491,13 @@ footer {
     .entrees {
         display: flex;
         flex-direction: column;
-        padding-bottom: Opx;
+        padding-bottom: 0px;
     }
 
     .plats {
         display: flex;
         flex-direction: column;
-        padding-bottom: Opx;
+        padding-bottom: 0px;
     }
 
     .desserts {
