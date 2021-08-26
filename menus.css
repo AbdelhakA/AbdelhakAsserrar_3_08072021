@@ -96,6 +96,7 @@ header > h1 {
 }
 
 .entree_choice {
+    margin-top: 30px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -116,6 +117,7 @@ header > h1 {
 .h1heart {
     display: flex;
     flex-direction: row;
+    max-width: 1440px;
 }
 
 .h1heart > .hearts {
@@ -157,6 +159,7 @@ header > h1 {
 
 .price {
     padding-right: 30px;
+    font-weight: bold;
 }
 
 .upper {
@@ -382,10 +385,11 @@ header > h1 {
     border-radius: 50px;
     margin-top: 30px;
     cursor: pointer;  
+    transition-duration: .5s;
 }
 
 .order:hover {
-    box-shadow: 0px 2px 16px rgb(40, 40, 40);
+    box-shadow: 6px 5px 10px rgb(186, 186, 186);
     transition-duration: .5s;
     opacity: .9;
 }
