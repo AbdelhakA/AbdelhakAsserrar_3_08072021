@@ -72,15 +72,6 @@ header > h1 {
     background-size: cover;  
 }
 
-/* .visual {
-    width: 100%;
-    height: 264px;
-    background-image: url(photos/delice.jpg);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;  
-} */
-
 .content {
 
     border-top-left-radius: 50px;
@@ -89,10 +80,6 @@ header > h1 {
 #starters {
     margin-left: 0px; 
     margin-bottom: 0px;   
-}
-
-.entrees {
-    /* padding-bottom: 30px; */
 }
 
 .entree_choice {
@@ -154,6 +141,7 @@ header > h1 {
     margin-left: 0px;
     font-weight: 100;
     margin-bottom: 2px;
+    margin-top: 0px;
 }
 
 .underline {
@@ -509,7 +497,6 @@ footer {
     .entrees {
         display: flex;
         flex-direction: column;
-        padding-bottom: 0px;
     }
 
     .plats {
