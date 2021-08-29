@@ -172,6 +172,10 @@ header > h1 {
     text-transform: uppercase;
 }
 
+.h1heart > h2 > .upper {
+    margin-right: 5px;
+}
+
 .choix {
     width: 90%;
     display: flex;
