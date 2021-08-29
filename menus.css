@@ -38,7 +38,7 @@ header > h1 {
 
 #delice_visual {
     width: 100%;
-    height: 264px;
+    height: 370px;
     background-image: url(photos/delice.jpg);
     background-position: right;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ header > h1 {
 
 #french_visual {
     width: 100%;
-    height: 264px;
+    height: 370px;
     background-image: url(photos/alafrench.jpg);
     background-position: right;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@ header > h1 {
 
 #note_visual {
     width: 100%;
-    height: 264px;
+    height: 370px;
     background-image: url(photos/note.jpg);
     background-position: right;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@ header > h1 {
 
 #palette_visual {
     width: 100%;
-    height: 264px;
+    height: 370px;
     background-image: url(photos/palette.jpg);
     background-position: right;
     background-repeat: no-repeat;
@@ -115,13 +115,19 @@ header > h1 {
 }
 
 .h1heart {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
     display: flex;
     flex-direction: row;
     max-width: 1440px;
+    margin-top: -50px;
+    background-color: #f1f1f1;
 }
 
 .h1heart > .hearts {
     margin-top: 10px;
+    right: 25px;
 }
 
 .plats > .title > .name {
@@ -481,6 +487,10 @@ footer {
     .entrees > .title {
         margin-top: 0px;
         margin-bottom: 0px;
+    }
+
+    .h1heart > .hearts {
+        right: 50px;
     }
 
     .choix {
