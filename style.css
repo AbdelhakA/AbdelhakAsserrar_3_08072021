@@ -311,8 +311,16 @@ nav {
     align-items: center;
 } 
 
+.function {
+  position: relative;
+  padding-bottom: 23px;
+  width: 100%;
+  padding-top: 25px;
+}
+
 .fct {
-    margin-left: 25px;
+  left: 25px;
+  position: absolute;
 
 }
 
@@ -341,7 +349,7 @@ nav {
     border-radius: 20px;
     background-color: #f1f1f1;
     padding: 10px;
-    /* box-shadow: 0px 0px 10px rgb(186, 182, 182); */
+    box-shadow: 0px 0px 20px rgb(213, 211, 211);
 }
 
 .text {
@@ -531,7 +539,7 @@ footer {
 }
 
 .footer_content {
-    padding-left: 25px;
+    padding-left: 30px;
 }
 
 .footer_content > .footer_title {
