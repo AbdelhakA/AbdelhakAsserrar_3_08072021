@@ -154,6 +154,7 @@ header > h1 {
 .price {
     padding-right: 30px;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .upper {
@@ -390,6 +391,7 @@ header > h1 {
     box-shadow: 6px 5px 10px rgb(186, 186, 186);
     transition-duration: .5s;
     opacity: .9;
+    cursor: pointer;
 }
 
 .go {

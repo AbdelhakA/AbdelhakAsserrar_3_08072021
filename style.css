@@ -300,6 +300,7 @@ nav {
     box-shadow: 6px 5px 10px rgb(186, 186, 186);
     transition-duration: .5s;
     opacity: .9;
+    cursor: pointer;
 }
 
 .instructions {
@@ -353,6 +354,18 @@ nav {
     padding: 10px;
     box-shadow: 0px 0px 20px rgb(213, 211, 211);
 }
+
+
+.steps:hover {
+  background-color: #e8dcf7;
+  transition-duration: .5s;
+  cursor: pointer;
+}
+
+.steps:hover i {
+  color: #9356DC;
+}
+
 
 .text {
     width: 70%;
@@ -606,6 +619,14 @@ footer {
     .steps {
         width: 70%;
         margin: 50px 15px;
+    }
+
+    .steps:hover {
+      color: #9356DC;
+    }
+
+    .steps:hover i {
+      color: #9356DC;
     }
 
     .instructions > h2 {
